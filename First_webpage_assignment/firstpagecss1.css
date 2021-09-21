@@ -1,0 +1,271 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-position: 100%; */
+
+}
+.section1{
+    color:rgb(62,8,8,8.89);
+    margin: 0px;
+    border:0px;
+    padding:100px 100px 200px 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1605363229096-337a255949f8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fHBob3RvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+}
+
+.fixed{
+    display: flex;
+    color:white;
+    right:10px;
+    top:10px;
+    position:fixed;
+    padding: 10px 20px;
+    height: 30px;
+    line-height: 30px;
+    background-color: black;
+}
+.icon{
+    padding: 0px 0px 0px 10px;
+    font-size: 30px !important;
+}
+.d1{
+    margin: 0px;
+    padding:150px 400px 100px 200px;
+    border:0px solid;
+    font-size:15px;
+}
+.d1 p{
+    font-size:30px; 
+}
+.a_button{
+    border:3px rgb(62,8,8,8.89);
+    border-radius: 10px;
+    padding:10px;
+    font-size: large;
+    color: orangered;
+    width:200px;
+opacity: 0.5;
+}
+.a_scroll{
+    float:right;
+}
+.a_button:hover{
+    cursor: pointer;
+    background-color: rgb(134, 5, 26);
+    color:coral;
+}
+.d2{
+    margin:20px 0px;
+    padding:10px;
+
+}
+.section2{
+    color:rgb(62,8,8,8.89);
+    margin: 0px;
+    padding:150px 300px;
+    background-color: palegreen;
+    text-align: center;
+}
+.section2 h1{
+    font-size: 40px;
+}
+.section2 p{
+    font-size: 30px;
+}
+.d3{
+    padding:50px;
+    text-align: center;
+}.d3 h1{
+    font-size: 80px;
+}.d3 p{
+    font-size: 20px;
+}
+.flex{
+    display:flex;
+}
+/* .d33{
+    border-right: 5px solid;
+} */
+.d4{
+    padding:100px 150px 120px 150px;
+    text-align: center;
+    margin:50px;
+}.d4 h1{font-size: 50px;
+}
+.d4 p{font-size: 20px;}
+.flex1{
+    display:flex;
+}
+.d{padding: 0px 130px 50px 200px;
+    margin:0px;
+}
+.d h1{
+    font-size: 40px;
+}
+.d p{
+    font-size: 20px;
+}
+.scroll{
+    text-align: right;
+    bottom: 0px;
+    right:0px;
+}
+.inline{
+    display: flex;
+}
+.inline i{
+    font-size: 40px;
+    padding-right: 20px;
+    color: crimson;
+}.section3{
+    color:white;
+    margin: 0px;
+    padding:0px 250px;
+    background-color:black;
+    text-align: center;
+}
+.section3 h1{
+    font-size: 20px;
+}
+.section3 p{
+    font-size: 50px;
+}
+.d4{
+    padding:100px 150px 120px 150px;
+    text-align: center;
+    margin:50px;
+}
+.navicon{
+    font-size: 10px;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.navicon img{
+    height: 100px;
+    opacity: .3;
+}
+.navicon img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.section4{
+    color:black;
+    margin: 0px;
+    padding:0px 200px;
+    background-color:white;
+    text-align: center;
+
+
+}
+.section4 h1{
+    font-size: 20px;
+    padding: 10px;
+}
+.section4 p{
+    font-size: 60px;
+    padding:10px;
+    padding-bottom: 40px;
+}
+.d5{
+    padding:0px 250px 120px 250px;
+    text-align: center;
+    margin:0px;
+    font-size: 40px;
+
+}
+.sectionform{
+    background-color: black;
+    margin:0px;
+    text-align: center;
+    padding: 100px 100px 0px 100px;
+    color:white;
+}
+.sectionform h1{
+    font-size: 20px;
+}
+.sectionform>p{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.formwidth{
+    width: 100%;
+    height: 50px;
+}
+.btncolor{
+    background: #39b54a;
+    border-color: #39b54a;
+    color: #FFFFFF;
+    width: 100%;
+    height: 50px;
+    vertical-align:center;
+    cursor: pointer;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.section{
+    width: 60%;
+    text-align: left;
+    padding: 50px;
+}
+.contact{
+    width: 40%;
+    text-align: left;
+    padding: 50px;
+}
+.outercontact{
+    padding: 60px;
+    margin: 0px 60px;
+}
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    opacity: 0.4;
+    color: white;
+}
+input:focus{
+    outline: none !important;
+    border-bottom: 2px solid green;
+}
+fieldset{
+    border:none;
+    padding: 50px 0px;
+}
+.submit{
+    margin: 50px 0px;
+}
+
+.contact h1{
+    font-size: 20px;
+    padding:50px 50px 10px 0px;
+}
+.contact p{
+    font-size: 20px;
+    padding: 0px 40px 0px 0px;
+}.contacticon{
+    font-size: 40px;
+    padding:50px 0px;
+}
+.email{
+    border:2px solid white;
+    text-align: left;
+    color:white;
+    padding:10px;
+  width: 200px;
+}
+.footer{
+    font-size:10px;
+    padding:150px 0px 10px 0px;
+}
+.header{
+    color: green;
+}
+.sub{
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    font-size: 10px;
+}
