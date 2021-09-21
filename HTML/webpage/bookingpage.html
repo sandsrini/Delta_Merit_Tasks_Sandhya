@@ -1,0 +1,100 @@
+<html>
+
+<head>
+    <title>Book Your Wagon</title>
+    <link rel="stylesheet" href="bookingpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <form onsubmit="validate()" method="GET" action="Irctc.html">
+        <div>
+            <h1 class="headingtxt">Book Your Freight</h1>
+        </div>
+        <div class="fs">
+            <div>
+                <!-- <div class="lin"><label class="label" for="id">User ID</label><input class="in" type="text" id="id" placeholder="User ID" value=""></div> -->
+                <div class="lin">
+                    <label class="label" for="fname">Freight Name</label>
+                    <input class="in" name="fname" type="text" id="fname" placeholder="Freight Name" required>
+                </div>
+                <div class="lin"><label class="label" for="ftype">Type of Freight</label>
+
+                    <select class="in select" name="ftype" id="ftype" required>
+                        <option disabled="disabled">Select</option>
+                        <option value="Liquid-Volatile">Liquid-Volatile</option>
+                        <option value="Liquid-Non-Volatile">Liquid-Non-Volatile</option>
+                        <option value="Solid-Volatile">Solid-Volatile</option>
+                        <option value="Solid-Non-Volatile">Solid-Non-Volatile</option>
+                        <option value="Gas-Volatile">Gas-Volatile</option>
+                        <option value="Gas-Non-Volatile">Gas-Non-Volatile</option>
+                    </select>
+                </div>
+                <div class="lin"><label class="label" for="from">From</label>
+
+                    <select class="in select" name="ftype" id="from" required>
+                        <option disabled="disabled">Select</option>
+                        <option>NEW DELHI - NDLS</option>
+                        <option>MGR CHENNAI CTL - MAS</option>
+                        <option>HOWRAH JN - HWH</option>
+                        <option>SECUNDERABAD JN - SC</option>
+                        <option>PUNE JN - PUNE</option>
+                        <option>CHENNAI EGMORE - MS</option>
+                        <option>MUMBAI CENTRAL - MMCT</option>
+                        <option>DELHI - DLI</option>
+                        <option>MADURAI JN - MDU</option>
+                        <option>TIRUCHCHIRAPALI - TPJ</option>
+                    </select>
+                </div>
+                <div class="lin"><label class="label" for="to" required>To</label>
+
+                    <select class="in" name="ftype" id="to">
+                        <option disabled="disabled">Select</option>
+                        <option>NEW DELHI - NDLS</option>
+                        <option>MGR CHENNAI CTL - MAS</option>
+                        <option>HOWRAH JN - HWH</option>
+                        <option>SECUNDERABAD JN - SC</option>
+                        <option>PUNE JN - PUNE</option>
+                        <option>CHENNAI EGMORE - MS</option>
+                        <option>MUMBAI CENTRAL - MMCT</option>
+                        <option>DELHI - DLI</option>
+                        <option>MADURAI JN - MDU</option>
+                        <option>TIRUCHCHIRAPALI - TPJ</option>
+                    </select>
+                </div>
+
+                <div class="lin"><label class="label" for="departure" required>Departure</label><select class="in"
+                        name="departure" id="departure">
+                        <option disabled="disabled">Departure</option>
+                        <option>Early Morning(0-6)</option>
+                        <option>Morning(6-15)</option>
+                        <option>Mid Day(12-18)</option>
+                        <option>Night(18-24)</option>
+                    </select>
+                </div>
+                <div class="lin"><label class="label" for="arrival" required>Arrival</label><select class="in"
+                        name="arrival" id="departure">
+                        <option disabled="disabled">Arrival</option>
+                        <option>Early Morning(0-6)</option>
+                        <option>Morning(6-15)</option>
+                        <option>Mid Day(12-18)</option>
+                        <option>Night(18-24)</option>
+                    </select>
+                </div>
+                <div class="submit"><button type="reset" class="btncolor uppercase">Reset</button>
+                    <button type="submit" class="btncolor uppercase">Book My Freight
+                    </button>
+                </div>
+                <script>function validate() {
+                        alert("Booking Successful!!");
+                    }
+                </script>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

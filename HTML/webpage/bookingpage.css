@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding:10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fs{
+    width:600px;
+    background-color:rgba(255, 255, 255, 0.8);
+    /* border:2px solid; */
+    border-radius: 10px;
+    box-shadow: 1px 6px 6px #012443;
+    font-weight: bold;
+    /* color:#d338db; */
+}
+body{
+    text-align: center;
+    /* background-image: url("freight-image.jpg"); */
+    background-image: url("https://images.designtrends.com/wp-content/uploads/2016/02/23104340/Excellent-Train-Wallpaper.jpg");
+    background-size: cover;
+}
+form {
+    display: inline-block;
+}
+.label{
+    padding:0px 20px;
+    width:35%;
+    line-height:40px;
+    display: inline-block;
+}
+.headingtxt{
+    color:#012443;
+}
+.in{
+    width:55%; 
+    border: none;
+    border-bottom:1px solid;
+}
+.lin{
+    text-align: left;
+}
+/* .submit{
+    margin:50px 200px;
+} */
+.btncolor{
+    margin:20px 40px;
+    width:150px;
+    border-radius: 5px;
+    background-color: #012443;
+    display: inline-block;
+    justify-content: space-between;
+    border: none;
+    color:white;
+    font-weight: bold;
+}
+.btncolor:hover{
+    box-shadow: 2px 2px 5px #012443;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    color:#012443;
+}
+option:hover{
+background-color: #012443;
+}
+/* @media  (max-width:1200px) and (min-width:700px)  {
+    form {
+        display: inline-block;
+    }
+    .fs{ */
+        /* width:50%; */
+        /* margin:100px 400px 50px 450px; */
+        /* background-color: #fae9fb;
+        border:2px solid;
+        border-radius: 10px;
+    }
+    .btncolor{
+        margin:20px 40px;
+        width:150px;
+        border-radius: 5px;
+        background-color: #d338db;
+    }
+    
+} */
